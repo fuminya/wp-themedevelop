@@ -17,7 +17,7 @@ services:
     ports: 
       - '18080:80'
     volumes:
-      - ./themes/original:/var/www/html/wp-content/themes/original
+      - ./wordpress:/var/www/html
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_NAME: wordpress

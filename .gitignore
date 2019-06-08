@@ -1,0 +1,4 @@
+.DS_Store
+
+wordpress/*
+!wordpress/wp-content/themes/original
