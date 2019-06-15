@@ -1,6 +1,6 @@
-# wordpress-develop
+# wp-themedevelop
 
-Wordpressの開発環境をDockerを用いて用意する。
+Wordpressのテーマ開発環境をDockerを用いて用意する。
 
 このフォルダに異動し、以下のコマンドを実行。
 ```terminal
