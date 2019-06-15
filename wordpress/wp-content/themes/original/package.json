@@ -1,0 +1,28 @@
+{
+  "name": "original",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "node-sass style.scss style.css",
+    "watch": "node-sass style.scss style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuminya/wp-themedevelop.git"
+  },
+  "author": "fuminya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuminya/wp-themedevelop/issues"
+  },
+  "homepage": "https://github.com/fuminya/wp-themedevelop#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
